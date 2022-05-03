@@ -1,0 +1,92 @@
+[
+  {
+    "directory": "D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\\codegen\\mex\\energyGradient1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /source-charset:utf-8 /I \".\" /I \"D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=energyGradient1_mex   energyGradient1_data.c /Fobuild\\win64\\energyGradient1_data.obj",
+    "file": "energyGradient1_data.c",
+    "output": "build/win64/energyGradient1_data.obj"
+  },
+  {
+    "directory": "D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\\codegen\\mex\\energyGradient1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /source-charset:utf-8 /I \".\" /I \"D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=energyGradient1_mex   rt_nonfinite.c /Fobuild\\win64\\rt_nonfinite.obj",
+    "file": "rt_nonfinite.c",
+    "output": "build/win64/rt_nonfinite.obj"
+  },
+  {
+    "directory": "D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\\codegen\\mex\\energyGradient1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /source-charset:utf-8 /I \".\" /I \"D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=energyGradient1_mex   energyGradient1_initialize.c /Fobuild\\win64\\energyGradient1_initialize.obj",
+    "file": "energyGradient1_initialize.c",
+    "output": "build/win64/energyGradient1_initialize.obj"
+  },
+  {
+    "directory": "D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\\codegen\\mex\\energyGradient1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /source-charset:utf-8 /I \".\" /I \"D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=energyGradient1_mex   energyGradient1_terminate.c /Fobuild\\win64\\energyGradient1_terminate.obj",
+    "file": "energyGradient1_terminate.c",
+    "output": "build/win64/energyGradient1_terminate.obj"
+  },
+  {
+    "directory": "D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\\codegen\\mex\\energyGradient1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /source-charset:utf-8 /I \".\" /I \"D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=energyGradient1_mex   energyGradient1.c /Fobuild\\win64\\energyGradient1.obj",
+    "file": "energyGradient1.c",
+    "output": "build/win64/energyGradient1.obj"
+  },
+  {
+    "directory": "D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\\codegen\\mex\\energyGradient1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /source-charset:utf-8 /I \".\" /I \"D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=energyGradient1_mex   assertValidSizeArg.c /Fobuild\\win64\\assertValidSizeArg.obj",
+    "file": "assertValidSizeArg.c",
+    "output": "build/win64/assertValidSizeArg.obj"
+  },
+  {
+    "directory": "D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\\codegen\\mex\\energyGradient1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /source-charset:utf-8 /I \".\" /I \"D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=energyGradient1_mex   norm.c /Fobuild\\win64\\norm.obj",
+    "file": "norm.c",
+    "output": "build/win64/norm.obj"
+  },
+  {
+    "directory": "D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\\codegen\\mex\\energyGradient1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /source-charset:utf-8 /I \".\" /I \"D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=energyGradient1_mex   mtimes.c /Fobuild\\win64\\mtimes.obj",
+    "file": "mtimes.c",
+    "output": "build/win64/mtimes.obj"
+  },
+  {
+    "directory": "D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\\codegen\\mex\\energyGradient1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /source-charset:utf-8 /I \".\" /I \"D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=energyGradient1_mex   mldivide.c /Fobuild\\win64\\mldivide.obj",
+    "file": "mldivide.c",
+    "output": "build/win64/mldivide.obj"
+  },
+  {
+    "directory": "D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\\codegen\\mex\\energyGradient1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /source-charset:utf-8 /I \".\" /I \"D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=energyGradient1_mex   warning.c /Fobuild\\win64\\warning.obj",
+    "file": "warning.c",
+    "output": "build/win64/warning.obj"
+  },
+  {
+    "directory": "D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\\codegen\\mex\\energyGradient1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /source-charset:utf-8 /I \".\" /I \"D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=energyGradient1_mex   interface\\_coder_energyGradient1_api.c /Fobuild\\win64\\_coder_energyGradient1_api.obj",
+    "file": "interface/_coder_energyGradient1_api.c",
+    "output": "build/win64/_coder_energyGradient1_api.obj"
+  },
+  {
+    "directory": "D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\\codegen\\mex\\energyGradient1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /source-charset:utf-8 /I \".\" /I \"D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=energyGradient1_mex   interface\\_coder_energyGradient1_mex.c /Fobuild\\win64\\_coder_energyGradient1_mex.obj",
+    "file": "interface/_coder_energyGradient1_mex.c",
+    "output": "build/win64/_coder_energyGradient1_mex.obj"
+  },
+  {
+    "directory": "D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\\codegen\\mex\\energyGradient1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /source-charset:utf-8 /I \".\" /I \"D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=energyGradient1_mex   energyGradient1_emxutil.c /Fobuild\\win64\\energyGradient1_emxutil.obj",
+    "file": "energyGradient1_emxutil.c",
+    "output": "build/win64/energyGradient1_emxutil.obj"
+  },
+  {
+    "directory": "D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\\codegen\\mex\\energyGradient1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /source-charset:utf-8 /I \".\" /I \"D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=energyGradient1_mex   interface\\_coder_energyGradient1_info.c /Fobuild\\win64\\_coder_energyGradient1_info.obj",
+    "file": "interface/_coder_energyGradient1_info.c",
+    "output": "build/win64/_coder_energyGradient1_info.obj"
+  },
+  {
+    "directory": "D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\\codegen\\mex\\energyGradient1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /source-charset:utf-8 /I \".\" /I \"D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=energyGradient1_mex   \"C:\\Program Files\\MATLAB\\R2021a\\extern\\version\\c_mexapi_version.c\" /Fobuild\\win64\\c_mexapi_version.obj",
+    "file": "C:/Program Files/MATLAB/R2021a/extern/version/c_mexapi_version.c",
+    "output": "build/win64/c_mexapi_version.obj"
+  }
+]

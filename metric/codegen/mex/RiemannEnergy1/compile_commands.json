@@ -1,0 +1,68 @@
+[
+  {
+    "directory": "D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\\codegen\\mex\\RiemannEnergy1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /source-charset:utf-8 /I \".\" /I \"D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" /I \".\" -DMODEL=RiemannEnergy1_mex   RiemannEnergy1_data.c /Fobuild\\win64\\RiemannEnergy1_data.obj",
+    "file": "RiemannEnergy1_data.c",
+    "output": "build/win64/RiemannEnergy1_data.obj"
+  },
+  {
+    "directory": "D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\\codegen\\mex\\RiemannEnergy1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /source-charset:utf-8 /I \".\" /I \"D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" /I \".\" -DMODEL=RiemannEnergy1_mex   rt_nonfinite.c /Fobuild\\win64\\rt_nonfinite.obj",
+    "file": "rt_nonfinite.c",
+    "output": "build/win64/rt_nonfinite.obj"
+  },
+  {
+    "directory": "D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\\codegen\\mex\\RiemannEnergy1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /source-charset:utf-8 /I \".\" /I \"D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" /I \".\" -DMODEL=RiemannEnergy1_mex   RiemannEnergy1_initialize.c /Fobuild\\win64\\RiemannEnergy1_initialize.obj",
+    "file": "RiemannEnergy1_initialize.c",
+    "output": "build/win64/RiemannEnergy1_initialize.obj"
+  },
+  {
+    "directory": "D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\\codegen\\mex\\RiemannEnergy1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /source-charset:utf-8 /I \".\" /I \"D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" /I \".\" -DMODEL=RiemannEnergy1_mex   RiemannEnergy1_terminate.c /Fobuild\\win64\\RiemannEnergy1_terminate.obj",
+    "file": "RiemannEnergy1_terminate.c",
+    "output": "build/win64/RiemannEnergy1_terminate.obj"
+  },
+  {
+    "directory": "D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\\codegen\\mex\\RiemannEnergy1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /source-charset:utf-8 /I \".\" /I \"D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" /I \".\" -DMODEL=RiemannEnergy1_mex   RiemannEnergy1.c /Fobuild\\win64\\RiemannEnergy1.obj",
+    "file": "RiemannEnergy1.c",
+    "output": "build/win64/RiemannEnergy1.obj"
+  },
+  {
+    "directory": "D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\\codegen\\mex\\RiemannEnergy1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /source-charset:utf-8 /I \".\" /I \"D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" /I \".\" -DMODEL=RiemannEnergy1_mex   mtimes.c /Fobuild\\win64\\mtimes.obj",
+    "file": "mtimes.c",
+    "output": "build/win64/mtimes.obj"
+  },
+  {
+    "directory": "D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\\codegen\\mex\\RiemannEnergy1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /source-charset:utf-8 /I \".\" /I \"D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" /I \".\" -DMODEL=RiemannEnergy1_mex   warning.c /Fobuild\\win64\\warning.obj",
+    "file": "warning.c",
+    "output": "build/win64/warning.obj"
+  },
+  {
+    "directory": "D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\\codegen\\mex\\RiemannEnergy1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /source-charset:utf-8 /I \".\" /I \"D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" /I \".\" -DMODEL=RiemannEnergy1_mex   interface\\_coder_RiemannEnergy1_api.c /Fobuild\\win64\\_coder_RiemannEnergy1_api.obj",
+    "file": "interface/_coder_RiemannEnergy1_api.c",
+    "output": "build/win64/_coder_RiemannEnergy1_api.obj"
+  },
+  {
+    "directory": "D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\\codegen\\mex\\RiemannEnergy1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /source-charset:utf-8 /I \".\" /I \"D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" /I \".\" -DMODEL=RiemannEnergy1_mex   interface\\_coder_RiemannEnergy1_mex.c /Fobuild\\win64\\_coder_RiemannEnergy1_mex.obj",
+    "file": "interface/_coder_RiemannEnergy1_mex.c",
+    "output": "build/win64/_coder_RiemannEnergy1_mex.obj"
+  },
+  {
+    "directory": "D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\\codegen\\mex\\RiemannEnergy1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /source-charset:utf-8 /I \".\" /I \"D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" /I \".\" -DMODEL=RiemannEnergy1_mex   interface\\_coder_RiemannEnergy1_info.c /Fobuild\\win64\\_coder_RiemannEnergy1_info.obj",
+    "file": "interface/_coder_RiemannEnergy1_info.c",
+    "output": "build/win64/_coder_RiemannEnergy1_info.obj"
+  },
+  {
+    "directory": "D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\\codegen\\mex\\RiemannEnergy1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /source-charset:utf-8 /I \".\" /I \"D:\\Boran\\Dropbox\\Codes\\CCM-DNN\\aircraft\\metric\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" /I \".\" -DMODEL=RiemannEnergy1_mex   \"C:\\Program Files\\MATLAB\\R2021a\\extern\\version\\c_mexapi_version.c\" /Fobuild\\win64\\c_mexapi_version.obj",
+    "file": "C:/Program Files/MATLAB/R2021a/extern/version/c_mexapi_version.c",
+    "output": "build/win64/c_mexapi_version.obj"
+  }
+]

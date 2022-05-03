@@ -1,0 +1,52 @@
+# CompilerName=msvc150
+# Mode=optim
+ninja_required_version = 1.3
+
+# Basic folders
+root = .
+builddir = $root\build\win64
+matlabdir = C:\Program Files\MATLAB\R2021a
+startdir = D:\Boran\Dropbox\Codes\CCM-DNN\aircraft\metric
+
+# Toolchain information
+cc = cl
+cxx = cl
+linker = link
+linkerxx = link
+
+cflags =  /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /source-charset:utf-8 /I "$root" /I "$startdir" /I "$root\interface" /I "$matlabdir\extern\include" /I "." -DMODEL=RiemannEnergy1_mex  
+
+cxxflags =   /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /source-charset:utf-8 /I "$root" /I "$startdir" /I "$root\interface" /I "$matlabdir\extern\include" /I "." -DMODEL=RiemannEnergy1_mex  
+
+ldflags =  /nologo /manifest   /DLL /LIBPATH:"$matlabdir\extern\lib\win64\microsoft" libmx.lib libmex.lib libmat.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  /out:"RiemannEnergy1_mex.mexw64" /LIBPATH:"$matlabdir\extern\lib\win64\microsoft" libmwblas.lib libemlrt.lib libcovrt.lib libut.lib libmwmathutil.lib  /export:mexFunction /export:mexfilerequiredapiversion /export:emlrtMexFcnProperties /export:RiemannEnergy1 /export:RiemannEnergy1_initialize /export:RiemannEnergy1_terminate /export:RiemannEnergy1_atexit
+
+# Build Rules
+rule cc
+    command = $cc $cflags $in /Fo$out
+
+rule cxx
+    command = $cxx $cxxflags $in /Fo$out
+
+rule link
+    command = $linker @$out.rsp $ldflags
+    rspfile = $out.rsp
+    rspfile_content = $in
+
+rule linkxx
+    command = $linkerxx $in $ldflags
+
+# Build
+build $builddir\RiemannEnergy1_data.obj : cc $root\RiemannEnergy1_data.c
+build $builddir\rt_nonfinite.obj : cc $root\rt_nonfinite.c
+build $builddir\RiemannEnergy1_initialize.obj : cc $root\RiemannEnergy1_initialize.c
+build $builddir\RiemannEnergy1_terminate.obj : cc $root\RiemannEnergy1_terminate.c
+build $builddir\RiemannEnergy1.obj : cc $root\RiemannEnergy1.c
+build $builddir\mtimes.obj : cc $root\mtimes.c
+build $builddir\warning.obj : cc $root\warning.c
+build $builddir\_coder_RiemannEnergy1_api.obj : cc $root\interface\_coder_RiemannEnergy1_api.c
+build $builddir\_coder_RiemannEnergy1_mex.obj : cc $root\interface\_coder_RiemannEnergy1_mex.c
+build $builddir\_coder_RiemannEnergy1_info.obj : cc $root\interface\_coder_RiemannEnergy1_info.c
+build $builddir\c_mexapi_version.obj : cc $matlabdir\extern\version\c_mexapi_version.c
+
+# Link
+build $root\RiemannEnergy1_mex.mexw64 : link $builddir\RiemannEnergy1_data.obj $builddir\rt_nonfinite.obj $builddir\RiemannEnergy1_initialize.obj $builddir\RiemannEnergy1_terminate.obj $builddir\RiemannEnergy1.obj $builddir\mtimes.obj $builddir\warning.obj $builddir\_coder_RiemannEnergy1_api.obj $builddir\_coder_RiemannEnergy1_mex.obj $builddir\_coder_RiemannEnergy1_info.obj $builddir\c_mexapi_version.obj 
